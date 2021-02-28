@@ -1,0 +1,69 @@
+html{
+    background-color: yellow;
+}
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 650px;
+    margin: auto auto;
+    border: 10px double blue;
+    background-color: white;
+}
+
+main{
+    padding: 15px;
+}
+
+footer{
+    borde-top: 3px solid blue;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 150%;
+    color: blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 125%;
+    margin-bottom: 0;
+}
+
+h3{
+    font-size: 115%;
+    margin-bottom: 10px;
+}
+
+ul{
+    margin-top: 0;
+    padding-left: 15px;
+}
+
+blockquote{
+    margin: 0;
+}
+
+cite{
+    color: blue;
+    font-style: normal
+}
+
+pcite{
+    text-align: right;
+    margin-bottom: 0.75em;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+tag{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
