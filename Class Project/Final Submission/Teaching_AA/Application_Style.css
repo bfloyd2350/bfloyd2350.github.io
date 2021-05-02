@@ -1,0 +1,144 @@
+html{
+    background-color: darkgray;
+}
+
+img{
+    float: left;
+    margin-left: 20
+}
+
+body{
+    font-family: sans-serif;
+    width: 800px;
+    background-color: grey;
+    border: 5px solid black;
+    border-style: solid;
+    box-shadow: 5px 5px 5px 5px black;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+form{
+    background-color: white;
+    width: 550px;
+    border: 5px solid black;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5em;
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+* {
+    		margin: 0;
+    		padding: 0;
+    	}
+
+#form h1 {
+    color: blue; 
+    font-size: 140%;
+}
+
+#form h2 {
+    font-size: 115%;
+    padding: .5em 0;
+}
+
+label {
+    color: blue;
+    float: left;
+    width: 10em;
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    width: 15em;
+    margin: 0 0 .5em 1em;
+}
+
+#button, #reset {
+    width: 7em;
+    background-color: silver;
+    box-shadow: 2px 2px 0 blue; 
+}
+
+#button {
+    margin-left: 9em;
+}
+
+#nav_menu ul{
+    list-style: none;
+    position: relative;
+}
+
+#nav_menu ul li{
+    float: left;
+}
+
+#nav_menu ul li a{
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-right: px solid white;
+}
+
+#nav_menu ul li a:hover{
+    background-color: gray;
+}
+
+#nav_menu ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu ul ul li{
+    float: none;
+}
+
+#nav_menu ul li:hover > ul{
+    display: block;
+}
+
+#nav_menu > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main{
+    width: 700px;
+    float: right;
+    padding: 25px;
+    padding-left: 25px;
+    margin-top: -25px;
+}
+
+header{
+    background: linear-gradient(45deg, white, orange, black);
+    vertical-align: middle;
+     border-bottom: 2px solid black;
+    padding-bottom: 1em;
+    margin: 0;
+    padding: 1px;
+}
+
+footer{
+    margin-top: em;
+    border-top: 2px solid;
+    padding: 1.5em;
+    text-align: center;
+    font-size: 90%;
+    font-weight: bold;
+    border-top: 2px solid black;
+    background: linear-gradient(45deg, black, orange 75%, white);
+    clear: both;
+}

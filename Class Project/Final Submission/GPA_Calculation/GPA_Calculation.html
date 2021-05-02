@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Computer Science</title>
+     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="GPA.css">
+    <script src="GPA_Cal.js"></script>
+   
+</head>
+
+<body>
+    <header>
+        <img src= "typing.jpg" width="90" height="80">
+        <h1>Computer Science</h1>
+    </header>
+    
+    <nav id="nav_menu">
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../CS_Program/CS_program.html">CS Program</a></li>
+        <li><a href="../Teaching_AA/Teaching_Assistant_Application.html">Teaching Assistant Application</a></li>
+        <li><a href="../GPA_Calculation/GPA_Calculation.html">GPA Calculation</a></li>
+        
+    </ul>
+    
+    </nav>
+    
+    
+    <section>
+     <main> 
+     <form>
+        <h1>GPA Calculator</h1>
+         <p>Please enter the credit hours and grade for your first class</p>
+         <label for="credit_hours_1">Credit Hours:</label>
+         <input type="text" id="credit_hours_1"><br>
+         
+         <label for="grade_1">Grade:</label>
+         <input type="text" id="grade_1" placeholder="One Character" required pattern="[A-Za-z]{1}"><br>
+         
+         <p>Please enter the credit hours and grade for your second class</p>
+          <label for="credit_hours_2">Credit Hours:</label>
+         <input type="text" id="credit_hours_2"><br>
+         
+         <label for="grade_2">Grade:</label>
+         <input type="text" id="grade_2" placeholder="One Character" required pattern="[A-Za-z]{1}"><br>
+         
+         <p>This is your GPA</p>
+         <label for="GPA">GPA:</label>
+         <input type="text" id="GPA" disabled><br>
+         
+         <label>&nbsp;</label>
+         <input type="button" id="calculate" value="Calculate">
+         <input type="button" id="clear" value="Clear"><br>
+     </form>
+    </main> 
+    </section>
+    <footer>
+        <span>&copy; 2021 Brandon Floyd</span>
+    </footer>
+</body>
+</html>

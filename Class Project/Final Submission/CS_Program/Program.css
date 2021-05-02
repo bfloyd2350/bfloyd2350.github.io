@@ -1,0 +1,129 @@
+html{
+    background-color: darkgray;
+}
+
+img{
+    float: left;
+    margin-left: 20
+}
+
+body{
+    font-family: sans-serif;
+    width: 800px;
+    background-color: grey;
+    border: 5px solid black;
+    border-style: solid;
+    box-shadow: 5px 5px 5px 5px black;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table {
+        font-family: "Times New Roman";
+        border-collapse: collapse;
+        border: 4px solid black;
+        border-style: solid;
+        margin: 20px auto;
+        background-color: white;
+}
+
+th, td {
+			border: 1px solid black;
+			padding: .2em 1em .2em .5em;
+			text-align: center;
+			vertical-align: middle;
+}
+
+.right {
+    text-align: right;
+}
+
+
+figcaption{
+    text-align: center;
+}
+
+.rowspan{
+    background-color: white !important;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.colspan{
+    text-align: center;
+}
+
+#nav_menu ul{
+    list-style: none;
+    position: relative;
+}
+
+#nav_menu ul li{
+    float: left;
+}
+
+#nav_menu ul li a{
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-right: px solid white;
+}
+
+#nav_menu ul li a:hover{
+    background-color: gray;
+}
+
+#nav_menu ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu ul ul li{
+    float: none;
+}
+
+#nav_menu ul li:hover > ul{
+    display: block;
+}
+
+#nav_menu > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main{
+    width: 700px;
+    float: right;
+    padding: 25px;
+    padding-left: 25px;
+    margin-top: -25px;
+}
+
+header{
+    background: linear-gradient(45deg, white, orange, black);
+    vertical-align: middle;
+     border-bottom: 2px solid black;
+    padding-bottom: 1em;
+    margin; 0;
+    padding: 1px;
+}
+
+footer{
+    margin-top: em;
+    border-top: 2px solid;
+    padding: 1.5em;
+    text-align: center;
+    font-size: 90%;
+    font-weight: bold;
+    border-top: 2px solid black;
+    background: linear-gradient(45deg, black, orange 75%, white);
+    clear: both;
+}
